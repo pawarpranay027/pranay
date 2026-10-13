@@ -22,5 +22,6 @@ cerr << "Warning: Non-canonical DNA character detected: "<< base << endl;
 double gc_percentage = (static_cast<double>(gc_count) / seq.length()) * 100.0; cout << "Sequence: " << seq << end1;
 
 cout << "GC Content: " << gc_percentage << "%" << end1;
+cout<<"Total Sequence Length:"<<seq.length()<<"bp"<<endl;
 
 return 0;
